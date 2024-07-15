@@ -110,6 +110,7 @@ ul {
 
 /* #endregion */
 
+/* #region Footer*/
 .footer {
   background-color: var(--dark);
 }
@@ -121,3 +122,5 @@ ul {
 .footer-promo {
   color: var(--white-background);
 }
+
+/* #endregion */

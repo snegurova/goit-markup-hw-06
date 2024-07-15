@@ -4,12 +4,13 @@
   --pressed-state: #404BBF;
   --text: #434455;
   --white-background: #FFFFFF;
+  --light: #F4F4FD;
 }
 
 /* #region Base styles */
 
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -21,8 +22,11 @@ body {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   color: var(--dark);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -30,6 +34,7 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -49,23 +54,20 @@ ul {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.167;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-}
-
-.nav .logo .second-part {
-  color: var(--dark);
-}
-
-.logo .first-part {
   color: var(--primary-brand);
+}
+
+.nav .logo .logo-wrapper {
+  color: var(--dark);
 }
 
 /* #endregion */
 
 /* #region Header */
 
-.menu-link, .address-link {
+.menu-link, .address {
   font-style: normal;
 }
 
@@ -78,8 +80,8 @@ ul {
   color: #434455;
 }
 
-.menu-link:hover, .menu-link:active,
-.address-link:hover, .address-link:active {
+.menu-link:hover, .menu-link:active, .menu-link:focus,
+.address-link:hover, .address-link:active, .address-link:focus {
   color: var(--pressed-state);
 }
 
@@ -94,19 +96,39 @@ ul {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.071;
+  line-height: 1.07;
   text-align: center;
   color: var(--white-background);
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   background-color: var(--primary-brand);
   border: 1px solid var(--primary-brand);
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white-background);
   text-align: center;
   cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+  background-color: var(--pressed-state)
+}
+
+/* #endregion */
+
+/* #region Our Team*/
+
+.team {
+  background-color: var(--light);
+}
+
+.team-member {
+  background-color: var(--white-background);
 }
 
 /* #endregion */
@@ -116,12 +138,12 @@ ul {
   background-color: var(--dark);
 }
 
-.footer .logo .second-part {
+.footer .logo .logo-wrapper {
   color: var(--white-background);
 }
 
 .footer-promo {
-  color: var(--white-background);
+  color: var(--light);
 }
 
 /* #endregion */

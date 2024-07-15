@@ -1,0 +1,123 @@
+:root {
+  --dark: #2E2F42;
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF;
+  --text: #434455;
+  --white-background: #FFFFFF;
+}
+
+/* #region Base styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--dark);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* #endregion */
+
+/* #region Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+
+.nav .logo .second-part {
+  color: var(--dark);
+}
+
+.logo .first-part {
+  color: var(--primary-brand);
+}
+
+/* #endregion */
+
+/* #region Header */
+
+.menu-link, .address-link {
+  font-style: normal;
+}
+
+.menu-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.address-link {
+  color: #434455;
+}
+
+.menu-link:hover, .menu-link:active,
+.address-link:hover, .address-link:active {
+  color: var(--pressed-state);
+}
+
+/* #endregion */
+
+/* #region Hero*/
+
+.hero {
+  background-color: var(--dark);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--white-background);
+}
+
+.hero-btn {
+  background-color: var(--primary-brand);
+  border: 1px solid var(--primary-brand);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  text-align: center;
+}
+
+/* #endregion */
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer .logo .second-part {
+  color: var(--white-background);
+}
+
+.footer-promo {
+  color: var(--white-background);
+}

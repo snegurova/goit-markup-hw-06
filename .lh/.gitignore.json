@@ -1,0 +1,30 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1721214434002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721214441942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.lh\n\\ No newline at end of file\n+/.lh\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721214461213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/.lh\n\\ No newline at end of file\n+/lh\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721214467887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/lh\n\\ No newline at end of file\n+lh\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1721214434002,
+            "name": "Commit-0",
+            "content": ".lh"
+        }
+    ]
+}

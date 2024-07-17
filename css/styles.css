@@ -141,7 +141,6 @@ ul {
 
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
 }
 
 .nav {
@@ -151,6 +150,7 @@ ul {
 
 .header .logo {
   margin-right: 75px;
+  display: inline-block;
 }
 
 .menu, .address-wrapper {

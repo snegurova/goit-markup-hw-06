@@ -473,7 +473,6 @@ ul {
   border: 1px solid var(--white-background);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: var(--dark);
   outline: none;
 }
 
@@ -556,10 +555,9 @@ ul {
   transition-property: background-color, border;
 }
 
-.modal-close-btn:hover {
+.modal-close-btn:hover, .modal-close-btn:focus {
   background-color: var(--pressed-state);
   border: none;
-  fill: var(--white-background);
 }
 
 .modal-close-icon {
@@ -567,7 +565,8 @@ ul {
   transition: fill var(--transition);
 }
 
-.modal-close-btn:hover .modal-close-icon {
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
   fill: var(--white-background);
 }
 
